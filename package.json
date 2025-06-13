@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "cypress": "^14.4.0"
+  },
+  "scripts": {
+    "test.mainConfig": "npx cypress run --config-file cypress.config.js --spec \"cypress/e2e/HW_Cypress_CLI/garage.cy.js\"",
+    "test.secondConfig": "npx cypress run --config-file cypress2.config.js --spec \"cypress/e2e/HW_Cypress_CLI/garage.cy.js\""
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.2"
+  }
+}
